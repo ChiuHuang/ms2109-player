@@ -40,8 +40,8 @@ function App() {
       // TODO: handle permission rejected
 
       const devices = await window.navigator.mediaDevices.enumerateDevices();
-      const videoDevice = findDevice(devices, 'videoinput', '534d', '2109');
-      const audioDevice = findDevice(devices, 'audioinput', '534d', '2109');
+      const videoDevice = findDevice(devices, 'videoinput', '345f', '2130');
+      const audioDevice = findDevice(devices, 'audioinput', '345f', '2130');
 
       // TODO: handle device not found
 
